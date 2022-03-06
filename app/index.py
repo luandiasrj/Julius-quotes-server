@@ -22,4 +22,4 @@ def dashboard():
     return jsonify(get_random_quote())
 
 if __name__ == '__main__':
-    NarutoApi.run(host= '127.0.0.1',port=5000)
+    NarutoApi.run(host= 'https://julius-quote-server.vercel.app/',port=5000)
